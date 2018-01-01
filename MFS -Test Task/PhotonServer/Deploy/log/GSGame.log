@@ -1,0 +1,265 @@
+﻿2017-10-20 17:59:51,018 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=bff7347b-ecf9-41d0-bd00-176041ddb9bd
+2017-10-20 17:59:51,108 [1] INFO  Photon.Hive.Plugin.PluginManager - Plugin configured: name=MagicFaceSmasherPlugin
+2017-10-20 17:59:51,187 [1] INFO  Photon.Hive.Plugin.PluginManager - Loaded Assembly Name=MagicFaceSmasherPlugin, Version=1.0.0.0, Culture=, PublicKey token=, Path=W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\Plugins\MagicFaceSmasherPlugin\\bin\MagicFaceSmasherPlugin.dll
+2017-10-20 17:59:51,190 [1] INFO  Photon.Hive.Plugin.PluginManager - Referenced Assembly Name=mscorlib, Version=4.0.0.0, Culture=, PublicKey token=B7-7A-5C-56-19-34-E0-89, Path=
+2017-10-20 17:59:51,194 [1] INFO  Photon.Hive.Plugin.PluginManager - Referenced Assembly Name=PhotonHivePlugin, Version=1.0.15.11060, Culture=, PublicKey token=, Path=
+2017-10-20 17:59:51,198 [1] INFO  Photon.Hive.Plugin.PluginManager - Referenced Assembly Name=System.Core, Version=4.0.0.0, Culture=, PublicKey token=B7-7A-5C-56-19-34-E0-89, Path=
+2017-10-20 17:59:51,201 [1] INFO  Photon.Hive.Plugin.PluginManager - Referenced Assembly Name=MagicFaceSmasherCommon, Version=1.0.0.0, Culture=, PublicKey token=, Path=
+2017-10-20 17:59:51,205 [1] INFO  Photon.Hive.Plugin.PluginManager - Plugin Type MagicFaceSmasherPlugin.PluginFactory from assembly MagicFaceSmasherPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null was successfuly created
+2017-10-20 17:59:51,210 [1] INFO  Photon.Hive.Plugin.PluginManager - Plugin manager (version=1.0.15.11060) is setup. type=MagicFaceSmasherPlugin.PluginFactory;path=W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\Plugins\MagicFaceSmasherPlugin\\bin\MagicFaceSmasherPlugin.dll;version=1.0.15.11060
+2017-10-20 17:59:51,660 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2017-10-20 17:59:51,669 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2017-10-20 17:59:51,677 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2017-10-20 17:59:52,554 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2017-10-20 17:59:52,559 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2017-10-20 17:59:52,563 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2017-10-20 17:59:52,567 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2017-10-20 17:59:52,570 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2017-10-20 17:59:52,574 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2017-10-20 17:59:52,578 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2017-10-20 17:59:52,588 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2017-10-20 17:59:52,596 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2017-10-20 17:59:52,600 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2017-10-20 17:59:52,604 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2017-10-20 17:59:52,608 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2017-10-20 17:59:52,612 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2017-10-20 17:59:52,616 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2017-10-20 17:59:52,626 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\Workload.config. Using default settings... (Файл 'W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\Workload.config' не найден.)
+2017-10-20 17:59:52,637 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\ServerState.txt
+2017-10-20 17:59:52,642 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2017-10-20 17:59:52,647 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2017-10-20 17:59:52,659 [1] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=bff7347b-ecf9-41d0-bd00-176041ddb9bd
+2017-10-20 17:59:52,678 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\LoadingbalancingWithTimer\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2017-10-20 17:59:52,686 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2017-10-20 17:59:54,409 [15] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2017-10-20 17:59:54,414 [15] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2017-10-20 17:59:54,422 [15] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 127.0.0.1, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID bff7347b-ecf9-41d0-bd00-176041ddb9bd, Hostname localhost, IPv6Address 
+2017-10-20 17:59:54,488 [11] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=bff7347b-ecf9-41d0-bd00-176041ddb9bd
+2017-10-20 18:01:36,342 [11] INFO  Photon.Hive.Plugin.PluginManager - Plugin successfully created:Type:MagicFaceSmasherPlugin.PluginFactory, path:W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\Plugins\MagicFaceSmasherPlugin\\bin\MagicFaceSmasherPlugin.dll
+2017-10-20 18:01:36,399 [11] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: OnCreateGame! Max players 2, Room name: Room1_0
+2017-10-20 18:01:36,405 [11] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - Game added to dic Room1_0 mplrs 2 ID Room1_0
+2017-10-20 18:01:36,409 [11] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - Adding actor MagicFaceSmasherPlugin.Actor
+2017-10-20 18:01:36,415 [11] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Game Created! Max plrs 2, first actor added to plugin game logic!
+2017-10-20 18:02:12,578 [18] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - Adding actor MagicFaceSmasherPlugin.Actor
+2017-10-20 18:02:12,583 [18] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: PLayer 2 Joind to Room1_0!
+2017-10-20 18:02:14,406 [14] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Player id 1 is ready!
+2017-10-20 18:02:15,412 [13] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Player id 2 is ready!
+2017-10-20 18:02:16,163 [14] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:02:16,871 [15] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:02:17,678 [19] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:02:18,369 [18] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:02:19,119 [12] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:02:20,018 [10] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 2! with 10 damage
+2017-10-20 18:02:20,532 [11] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 2! with 10 damage
+2017-10-20 18:02:21,248 [12] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 2! with 10 damage
+2017-10-20 18:02:22,181 [10] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 2! with 10 damage
+2017-10-20 18:02:22,981 [13] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 2! with 10 damage
+2017-10-20 18:02:25,315 [11] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 2! with 10 damage
+2017-10-20 18:02:25,432 [19] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 2! with 10 damage
+2017-10-20 18:02:26,432 [15] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 2! with 10 damage
+2017-10-20 18:02:26,999 [14] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 2! with 10 damage
+2017-10-20 18:02:28,422 [15] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:02:28,529 [12] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:02:28,693 [15] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:02:28,801 [19] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:02:28,958 [10] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - player 1 is dead!
+2017-10-20 18:02:28,964 [10] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:02:52,735 [11] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Player leaving room name Room1_0!
+2017-10-20 18:02:52,741 [11] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: PLayer 2 Leave!
+2017-10-20 18:02:54,344 [19] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - MY:: onEvent evcode 100
+2017-10-20 18:02:54,349 [19] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - MY:: application peerCount 1
+2017-10-20 18:02:55,553 [12] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Player leaving room name Room1_0!
+2017-10-20 18:02:55,560 [12] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: PLayer 1 Leave!
+2017-10-20 18:02:55,568 [12] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Game Closing room name Room1_0!
+2017-10-20 18:02:55,576 [12] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Game Closed!
+2017-10-20 18:02:59,497 [15] INFO  Photon.Hive.Plugin.PluginManager - Plugin successfully created:Type:MagicFaceSmasherPlugin.PluginFactory, path:W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\Plugins\MagicFaceSmasherPlugin\\bin\MagicFaceSmasherPlugin.dll
+2017-10-20 18:02:59,505 [15] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: OnCreateGame! Max players 2, Room name: Room2_0
+2017-10-20 18:02:59,510 [15] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - Game added to dic Room2_0 mplrs 2 ID Room2_0
+2017-10-20 18:02:59,515 [15] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - Adding actor MagicFaceSmasherPlugin.Actor
+2017-10-20 18:02:59,522 [15] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Game Created! Max plrs 2, first actor added to plugin game logic!
+2017-10-20 18:03:02,204 [12] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - Adding actor MagicFaceSmasherPlugin.Actor
+2017-10-20 18:03:02,210 [12] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: PLayer 2 Joind to Room2_0!
+2017-10-20 18:03:06,037 [19] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Player id 1 is ready!
+2017-10-20 18:03:07,073 [14] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Player id 2 is ready!
+2017-10-20 18:03:07,989 [19] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:03:08,606 [19] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:03:10,988 [19] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 2! with 10 damage
+2017-10-20 18:03:11,153 [12] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 2! with 10 damage
+2017-10-20 18:03:11,630 [12] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 2! with 10 damage
+2017-10-20 18:03:13,419 [13] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:03:13,598 [19] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:03:13,781 [15] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:03:13,948 [13] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:03:15,048 [24] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:03:16,760 [24] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 2! with 10 damage
+2017-10-20 18:03:17,349 [12] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 2! with 10 damage
+2017-10-20 18:03:18,469 [12] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 2! with 10 damage
+2017-10-20 18:03:18,848 [13] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 2! with 10 damage
+2017-10-20 18:03:20,786 [15] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:03:20,949 [25] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:03:21,116 [25] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - player 1 is dead!
+2017-10-20 18:03:21,122 [25] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:03:45,054 [25] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Player leaving room name Room2_0!
+2017-10-20 18:03:45,063 [25] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: PLayer 2 Leave!
+2017-10-20 18:03:46,422 [25] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Player leaving room name Room2_0!
+2017-10-20 18:03:46,429 [25] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: PLayer 1 Leave!
+2017-10-20 18:03:46,436 [25] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Game Closing room name Room2_0!
+2017-10-20 18:03:46,441 [25] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Game Closed!
+2017-10-20 18:03:56,521 [29] INFO  Photon.Hive.Plugin.PluginManager - Plugin successfully created:Type:MagicFaceSmasherPlugin.PluginFactory, path:W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\Plugins\MagicFaceSmasherPlugin\\bin\MagicFaceSmasherPlugin.dll
+2017-10-20 18:03:56,528 [29] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: OnCreateGame! Max players 2, Room name: Room3_0
+2017-10-20 18:03:56,534 [29] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - Game added to dic Room3_0 mplrs 2 ID Room3_0
+2017-10-20 18:03:56,541 [29] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - Adding actor MagicFaceSmasherPlugin.Actor
+2017-10-20 18:03:56,552 [29] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Game Created! Max plrs 2, first actor added to plugin game logic!
+2017-10-20 18:03:58,733 [19] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - Adding actor MagicFaceSmasherPlugin.Actor
+2017-10-20 18:03:58,740 [19] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: PLayer 2 Joind to Room3_0!
+2017-10-20 18:04:52,106 [24] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Player id 1 is ready!
+2017-10-20 18:04:53,841 [14] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Player id 2 is ready!
+2017-10-20 18:04:54,483 [12] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:04:54,640 [19] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:04:54,804 [14] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:04:54,961 [15] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:04:55,125 [12] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:04:55,340 [31] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:04:55,496 [19] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:04:55,710 [25] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:04:55,875 [30] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:04:56,031 [25] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - player 1 is dead!
+2017-10-20 18:04:56,037 [25] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 1! with 10 damage
+2017-10-20 18:05:22,002 [12] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Player leaving room name Room3_0!
+2017-10-20 18:05:22,010 [12] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: PLayer 2 Leave!
+2017-10-20 18:05:23,387 [26] INFO  Photon.Hive.Plugin.PluginManager - Plugin successfully created:Type:MagicFaceSmasherPlugin.PluginFactory, path:W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\Plugins\MagicFaceSmasherPlugin\\bin\MagicFaceSmasherPlugin.dll
+2017-10-20 18:05:23,394 [26] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: OnCreateGame! Max players 2, Room name: Room2_1
+2017-10-20 18:05:23,399 [26] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - Game added to dic Room2_1 mplrs 2 ID Room2_1
+2017-10-20 18:05:23,405 [26] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - Adding actor MagicFaceSmasherPlugin.Actor
+2017-10-20 18:05:23,410 [26] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Game Created! Max plrs 2, first actor added to plugin game logic!
+2017-10-20 18:05:28,315 [19] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Player leaving room name Room2_1!
+2017-10-20 18:05:28,323 [19] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: PLayer 1 Leave!
+2017-10-20 18:05:28,329 [19] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Game Closing room name Room2_1!
+2017-10-20 18:05:28,334 [19] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Game Closed!
+2017-10-20 18:05:29,596 [14] INFO  Photon.Hive.Plugin.PluginManager - Plugin successfully created:Type:MagicFaceSmasherPlugin.PluginFactory, path:W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\Plugins\MagicFaceSmasherPlugin\\bin\MagicFaceSmasherPlugin.dll
+2017-10-20 18:05:29,604 [14] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: OnCreateGame! Max players 2, Room name: Room1_1
+2017-10-20 18:05:29,612 [14] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - Game added to dic Room1_1 mplrs 2 ID Room1_1
+2017-10-20 18:05:29,617 [14] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - Adding actor MagicFaceSmasherPlugin.Actor
+2017-10-20 18:05:29,623 [14] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Game Created! Max plrs 2, first actor added to plugin game logic!
+2017-10-20 18:05:40,071 [31] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Player id 1 is ready!
+2017-10-20 18:05:45,557 [14] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Player leaving room name Room3_0!
+2017-10-20 18:05:45,564 [14] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: PLayer 1 Leave!
+2017-10-20 18:05:45,569 [30] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Game Closing room name Room3_0!
+2017-10-20 18:05:45,577 [30] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Game Closed!
+2017-10-20 18:05:48,123 [23] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - Adding actor MagicFaceSmasherPlugin.Actor
+2017-10-20 18:05:48,129 [23] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: PLayer 2 Joind to Room1_1!
+2017-10-20 18:05:50,425 [23] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Player id 2 is ready!
+2017-10-20 18:05:52,597 [15] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 2! with 10 damage
+2017-10-20 18:05:52,704 [24] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 2! with 10 damage
+2017-10-20 18:05:52,918 [30] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 2! with 10 damage
+2017-10-20 18:05:53,025 [25] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 2! with 10 damage
+2017-10-20 18:05:53,181 [15] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 2! with 10 damage
+2017-10-20 18:05:53,346 [30] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 2! with 10 damage
+2017-10-20 18:05:53,503 [23] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 2! with 10 damage
+2017-10-20 18:05:53,609 [23] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 2! with 10 damage
+2017-10-20 18:05:53,775 [15] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 2! with 10 damage
+2017-10-20 18:05:53,989 [19] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - player 2 is dead!
+2017-10-20 18:05:53,996 [19] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Hit player 2! with 10 damage
+2017-10-20 18:05:54,328 [30] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - MY:: onEvent evcode 100
+2017-10-20 18:05:54,334 [30] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - MY:: application peerCount 2
+2017-10-20 18:06:01,636 [25] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Player id 1 is Already ready!
+2017-10-20 18:06:02,171 [25] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Player id 1 is Already ready!
+2017-10-20 18:06:02,442 [23] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: EVENT! Player id 1 is Already ready!
+2017-10-20 18:06:03,942 [19] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Player leaving room name Room1_1!
+2017-10-20 18:06:03,948 [19] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: PLayer 1 Leave!
+2017-10-20 18:06:11,571 [30] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Player leaving room name Room1_1!
+2017-10-20 18:06:11,578 [30] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: PLayer 2 Leave!
+2017-10-20 18:06:11,584 [30] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Game Closing room name Room1_1!
+2017-10-20 18:06:11,590 [30] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Game Closed!
+2017-10-20 19:41:24,847 [13] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2017-10-20 19:41:24,857 [13] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2017-10-20 19:43:04,348 [13] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 50
+2017-10-20 19:43:04,358 [13] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2017-10-20 19:44:41,911 [23] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to Low with input 35
+2017-10-20 19:44:41,931 [23] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=Low
+2017-10-20 19:45:13,083 [23] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2017-10-20 19:45:13,088 [23] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2017-10-20 19:52:30,552 [16] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2017-10-20 19:52:30,561 [16] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2017-10-20 20:26:09,552 [19] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2017-10-20 20:26:09,559 [19] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2017-10-20 20:35:11,348 [16] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Low with input 35
+2017-10-20 20:35:11,360 [16] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Low
+2017-10-20 21:29:56,036 [4] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 50
+2017-10-20 21:29:56,303 [4] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2017-10-20 21:37:45,337 [13] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to Low with input 35
+2017-10-20 21:37:45,411 [13] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=Low
+2017-10-20 21:51:12,768 [19] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 50
+2017-10-20 21:51:12,846 [19] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2017-10-20 22:01:36,409 [23] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to Low with input 35
+2017-10-20 22:01:36,476 [23] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=Low
+2017-10-20 22:20:21,129 [25] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Normal with input 50
+2017-10-20 22:20:21,785 [25] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Normal
+2017-10-20 22:45:28,879 [12] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Normal to Low with input 35
+2017-10-20 22:45:28,938 [12] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Normal, new=Low
+2017-10-20 22:45:57,065 [11] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Low to Lowest with input 20
+2017-10-20 22:45:57,070 [11] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Low, new=Lowest
+2017-10-26 12:31:12,459 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=a1a8928a-0959-4080-a3c0-04cfc8388b72
+2017-10-26 12:31:12,604 [1] INFO  Photon.Hive.Plugin.PluginManager - Plugin configured: name=MagicFaceSmasherPlugin
+2017-10-26 12:31:12,714 [1] INFO  Photon.Hive.Plugin.PluginManager - Loaded Assembly Name=MagicFaceSmasherPlugin, Version=1.0.0.0, Culture=, PublicKey token=, Path=W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\Plugins\MagicFaceSmasherPlugin\\bin\MagicFaceSmasherPlugin.dll
+2017-10-26 12:31:12,719 [1] INFO  Photon.Hive.Plugin.PluginManager - Referenced Assembly Name=mscorlib, Version=4.0.0.0, Culture=, PublicKey token=B7-7A-5C-56-19-34-E0-89, Path=
+2017-10-26 12:31:12,725 [1] INFO  Photon.Hive.Plugin.PluginManager - Referenced Assembly Name=PhotonHivePlugin, Version=1.0.15.11060, Culture=, PublicKey token=, Path=
+2017-10-26 12:31:12,732 [1] INFO  Photon.Hive.Plugin.PluginManager - Referenced Assembly Name=System.Core, Version=4.0.0.0, Culture=, PublicKey token=B7-7A-5C-56-19-34-E0-89, Path=
+2017-10-26 12:31:12,738 [1] INFO  Photon.Hive.Plugin.PluginManager - Referenced Assembly Name=MagicFaceSmasherCommon, Version=1.0.0.0, Culture=, PublicKey token=, Path=
+2017-10-26 12:31:12,745 [1] INFO  Photon.Hive.Plugin.PluginManager - Plugin Type MagicFaceSmasherPlugin.PluginFactory from assembly MagicFaceSmasherPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null was successfuly created
+2017-10-26 12:31:12,750 [1] INFO  Photon.Hive.Plugin.PluginManager - Plugin manager (version=1.0.15.11060) is setup. type=MagicFaceSmasherPlugin.PluginFactory;path=W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\Plugins\MagicFaceSmasherPlugin\\bin\MagicFaceSmasherPlugin.dll;version=1.0.15.11060
+2017-10-26 12:31:13,264 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2017-10-26 12:31:13,273 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2017-10-26 12:31:13,285 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2017-10-26 12:31:14,251 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2017-10-26 12:31:14,257 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2017-10-26 12:31:14,264 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes in/sec
+2017-10-26 12:31:14,270 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter bytes out/sec
+2017-10-26 12:31:14,277 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2017-10-26 12:31:14,282 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2017-10-26 12:31:14,289 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: In (ms)
+2017-10-26 12:31:14,296 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Time Spent In Server: Out (ms)
+2017-10-26 12:31:14,302 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2017-10-26 12:31:14,308 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2017-10-26 12:31:14,314 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2017-10-26 12:31:14,321 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2017-10-26 12:31:14,327 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2017-10-26 12:31:14,332 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2017-10-26 12:31:14,347 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Could not initialize Feedback Control System from configuration: Invalid configuration file W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\Workload.config. Using default settings... (Файл 'W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\Workload.config' не найден.)
+2017-10-26 12:31:14,361 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\ServerState.txt
+2017-10-26 12:31:14,369 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2017-10-26 12:31:14,376 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2017-10-26 12:31:14,395 [1] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Connecting to master at 127.0.0.1:4520, serverId=a1a8928a-0959-4080-a3c0-04cfc8388b72
+2017-10-26 12:31:14,426 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\LoadingbalancingWithTimer\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2017-10-26 12:31:14,436 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2017-10-26 12:31:16,291 [15] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - Master connection established: address:127.0.0.1
+2017-10-26 12:31:16,298 [15] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2017-10-26 12:31:16,313 [15] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Registering game server with address 127.0.0.1, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, HTTP 80, ServerID a1a8928a-0959-4080-a3c0-04cfc8388b72, Hostname localhost, IPv6Address 
+2017-10-26 12:31:16,382 [12] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=a1a8928a-0959-4080-a3c0-04cfc8388b72
+2017-10-26 12:31:21,995 [13] INFO  Photon.Hive.Plugin.PluginManager - Plugin successfully created:Type:MagicFaceSmasherPlugin.PluginFactory, path:W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\Plugins\MagicFaceSmasherPlugin\\bin\MagicFaceSmasherPlugin.dll
+2017-10-26 12:31:22,052 [13] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: OnCreateGame! Max players 2, Room name: Room1_0
+2017-10-26 12:31:22,059 [13] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - Game added to dic Room1_0 mplrs 2 ID Room1_0
+2017-10-26 12:31:22,065 [13] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - Adding actor MagicFaceSmasherPlugin.Actor
+2017-10-26 12:31:22,071 [13] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Game Created! Max plrs 2, first actor added to plugin game logic!
+2017-10-26 12:31:54,192 [20] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Player leaving room name Room1_0!
+2017-10-26 12:31:54,201 [20] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: PLayer 1 Leave!
+2017-10-26 12:31:54,212 [20] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Game Closing room name Room1_0!
+2017-10-26 12:31:54,217 [20] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Game Closed!
+2017-10-26 12:31:55,846 [18] INFO  Photon.Hive.Plugin.PluginManager - Plugin successfully created:Type:MagicFaceSmasherPlugin.PluginFactory, path:W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\Plugins\MagicFaceSmasherPlugin\\bin\MagicFaceSmasherPlugin.dll
+2017-10-26 12:31:55,853 [18] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: OnCreateGame! Max players 2, Room name: Room2_0
+2017-10-26 12:31:55,858 [18] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - Game added to dic Room2_0 mplrs 2 ID Room2_0
+2017-10-26 12:31:55,863 [18] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - Adding actor MagicFaceSmasherPlugin.Actor
+2017-10-26 12:31:55,869 [18] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Game Created! Max plrs 2, first actor added to plugin game logic!
+2017-10-26 12:32:28,413 [11] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Player leaving room name Room2_0!
+2017-10-26 12:32:28,422 [11] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: PLayer 1 Leave!
+2017-10-26 12:32:28,428 [11] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Game Closing room name Room2_0!
+2017-10-26 12:32:28,434 [11] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Game Closed!
+2017-10-26 12:32:29,855 [22] INFO  Photon.Hive.Plugin.PluginManager - Plugin successfully created:Type:MagicFaceSmasherPlugin.PluginFactory, path:W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\Plugins\MagicFaceSmasherPlugin\\bin\MagicFaceSmasherPlugin.dll
+2017-10-26 12:32:29,861 [22] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: OnCreateGame! Max players 2, Room name: Room3_0
+2017-10-26 12:32:29,866 [22] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - Game added to dic Room3_0 mplrs 2 ID Room3_0
+2017-10-26 12:32:29,871 [22] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - Adding actor MagicFaceSmasherPlugin.Actor
+2017-10-26 12:32:29,876 [22] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Game Created! Max plrs 2, first actor added to plugin game logic!
+2017-10-26 12:32:46,413 [12] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Player leaving room name Room3_0!
+2017-10-26 12:32:46,420 [12] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: PLayer 1 Leave!
+2017-10-26 12:32:46,426 [12] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Game Closing room name Room3_0!
+2017-10-26 12:32:46,431 [12] INFO  Photon.Hive.HiveGame.HiveHostGame.Plugin - PLUGIN:: Game Closed!

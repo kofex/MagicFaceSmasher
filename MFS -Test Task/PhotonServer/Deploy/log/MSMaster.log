@@ -1,0 +1,261 @@
+﻿2017-10-20 17:59:52,818 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2017-10-20 17:59:53,282 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2017-10-20 17:59:53,288 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2017-10-20 17:59:53,292 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2017-10-20 17:59:53,300 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Photon: Custom Authentication Results performance counters successfully initialized
+2017-10-20 17:59:53,310 [1] WARN  Photon.Common.LoadBalancer.LoadBalancer`1 - Could not initialize LoadBalancer from configuration: Invalid configuration file W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\LoadBalancer.config. Using default settings... (Файл 'W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\LoadBalancer.config' не найден.)
+2017-10-20 17:59:53,538 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2017-10-20 17:59:53,547 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Plugin configured: name=MagicFaceSmasherPlugin
+2017-10-20 17:59:53,927 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2017-10-20 17:59:54,259 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2017-10-20 17:59:54,264 [1] WARN  Photon.LoadBalancing.Common.NodesReader - W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\Nodes.txt does not exist, CurrentNodeId = 0
+2017-10-20 17:59:54,269 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\Nodes.txt
+2017-10-20 17:59:54,273 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2017-10-20 17:59:54,278 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::Create timer
+2017-10-20 17:59:54,282 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\LoadingbalancingWithTimer\Master, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2017-10-20 17:59:54,283 [13] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 17:59:54,301 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2017-10-20 17:59:54,324 [13] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:54253 established (id=2)
+2017-10-20 17:59:54,461 [11] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2017-10-20 17:59:54,465 [11] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2017-10-20 18:02:54,296 [19] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 18:02:54,303 [19] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::PeerCount master > 0
+2017-10-20 18:02:54,313 [19] INFO  Photon.LoadBalancing.MasterServer.ApplicationStats - MY:::OnTimer peer T:MasterClientPeer,ConnId:4,ip:127.0.0.1:59469
+2017-10-20 18:02:54,321 [19] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::PeerCountGAmeServer > 0
+2017-10-20 18:02:54,329 [19] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::PAIR [127.0.0.1-5056-4531, GameServer(bff7347b-ecf9-41d0-bd00-176041ddb9bd) at 127.0.0.1:4531/127.0.0.1:5056] count 1
+2017-10-20 18:02:54,336 [19] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::PAIR conn stateConnected connected  connid 2
+2017-10-20 18:05:54,302 [15] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 18:05:54,310 [15] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::PeerCountGAmeServer > 0
+2017-10-20 18:05:54,316 [15] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::PAIR [127.0.0.1-5056-4531, GameServer(bff7347b-ecf9-41d0-bd00-176041ddb9bd) at 127.0.0.1:4531/127.0.0.1:5056] count 2
+2017-10-20 18:05:54,321 [15] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::PAIR conn stateConnected connected  connid 2
+2017-10-20 18:08:54,315 [29] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 18:11:54,316 [15] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 18:14:54,330 [24] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 18:17:54,330 [21] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 18:20:54,343 [20] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 18:23:54,351 [24] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 18:26:54,356 [25] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 18:29:54,362 [21] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 18:32:54,363 [22] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 18:35:54,364 [4] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 18:38:54,378 [15] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 18:41:54,382 [19] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 18:44:54,393 [19] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 18:47:54,405 [19] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 18:50:54,418 [19] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 18:53:54,427 [19] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 18:56:54,442 [19] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 18:59:54,443 [12] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 19:02:54,455 [12] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 19:05:54,456 [22] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 19:08:54,457 [27] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 19:11:54,458 [27] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 19:14:54,473 [21] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 19:17:54,488 [12] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 19:20:54,502 [12] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 19:23:54,502 [14] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 19:26:54,503 [27] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 19:29:54,504 [11] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 19:32:54,503 [27] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 19:35:54,519 [10] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 19:38:54,534 [22] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 19:41:54,534 [14] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 19:44:54,535 [14] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 19:47:54,535 [19] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 19:50:54,549 [23] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 19:53:54,549 [13] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 19:56:54,564 [11] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 19:59:54,566 [13] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 20:02:54,567 [16] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 20:05:54,582 [11] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 20:08:54,583 [19] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 20:11:54,597 [13] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 20:14:54,597 [19] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 20:17:54,597 [13] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 20:20:54,597 [6] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 20:23:54,597 [6] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 20:26:54,597 [12] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 20:29:54,613 [10] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 20:32:54,620 [15] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 20:35:54,628 [6] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 20:38:54,636 [15] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 20:41:54,646 [4] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 20:44:54,660 [18] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 20:47:54,661 [11] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 20:50:54,662 [19] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 20:53:54,674 [13] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 20:56:54,685 [8] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 20:59:54,697 [16] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 21:02:54,710 [24] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 21:05:54,724 [6] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 21:08:54,723 [23] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 21:11:54,723 [8] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 21:14:54,737 [26] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 21:17:54,737 [20] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 21:20:54,742 [6] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 21:23:54,757 [12] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 21:26:54,769 [25] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 21:29:54,785 [6] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 21:32:54,799 [13] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 21:35:54,799 [9] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 21:38:54,800 [26] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 21:41:54,803 [24] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 21:44:54,815 [26] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 21:47:54,827 [26] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 21:50:54,839 [20] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 21:53:54,843 [6] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 21:56:54,854 [8] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 21:59:54,867 [8] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 22:02:54,867 [11] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 22:05:54,882 [13] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 22:08:54,896 [24] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 22:11:54,911 [24] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 22:14:54,915 [24] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 22:17:54,927 [20] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 22:20:54,940 [25] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 22:23:54,944 [20] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 22:26:54,956 [9] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 22:29:54,966 [20] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 22:32:54,966 [13] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 22:35:54,977 [9] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 22:38:54,976 [12] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 22:41:54,990 [10] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 22:44:55,004 [20] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 22:47:55,019 [8] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 22:50:55,025 [16] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 22:53:55,038 [16] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 22:56:55,050 [6] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 22:59:55,050 [6] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 23:02:55,050 [11] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 23:05:55,051 [11] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 23:08:55,052 [14] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 23:11:55,053 [18] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 23:14:55,068 [9] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 23:17:55,081 [14] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 23:20:55,081 [9] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 23:23:55,080 [25] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 23:26:55,080 [9] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 23:29:55,082 [19] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 23:32:55,083 [19] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 23:35:55,095 [14] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 23:38:55,095 [14] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 23:41:55,095 [27] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 23:44:55,096 [24] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 23:47:55,096 [28] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 23:50:55,097 [24] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 23:53:55,099 [24] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 23:56:55,099 [29] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-20 23:59:55,100 [16] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-21 00:02:55,111 [10] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-21 00:05:55,121 [10] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-21 00:08:55,132 [11] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-21 00:11:55,143 [20] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-21 00:14:55,143 [4] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-21 00:17:55,158 [24] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-21 00:20:55,159 [22] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-21 00:23:55,174 [16] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-21 00:26:55,175 [16] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-21 00:29:55,175 [24] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 12:31:14,707 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2017-10-26 12:31:15,260 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - HTTP Queue performance counters successfully initialized
+2017-10-26 12:31:15,268 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Internal HTTP Queue performance counters successfully created
+2017-10-26 12:31:15,277 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2017-10-26 12:31:15,285 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Photon: Custom Authentication Results performance counters successfully initialized
+2017-10-26 12:31:15,299 [1] WARN  Photon.Common.LoadBalancer.LoadBalancer`1 - Could not initialize LoadBalancer from configuration: Invalid configuration file W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\LoadBalancer.config. Using default settings... (Файл 'W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\LoadBalancer.config' не найден.)
+2017-10-26 12:31:15,481 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2017-10-26 12:31:15,492 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Plugin configured: name=MagicFaceSmasherPlugin
+2017-10-26 12:31:15,748 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2017-10-26 12:31:16,089 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2017-10-26 12:31:16,099 [1] WARN  Photon.LoadBalancing.Common.NodesReader - W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\Nodes.txt does not exist, CurrentNodeId = 0
+2017-10-26 12:31:16,108 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\Nodes.txt
+2017-10-26 12:31:16,117 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2017-10-26 12:31:16,125 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::Create timer
+2017-10-26 12:31:16,133 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\LoadingbalancingWithTimer\Master, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2017-10-26 12:31:16,134 [13] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 12:31:16,168 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2017-10-26 12:31:16,197 [11] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:58383 established (id=2)
+2017-10-26 12:31:16,346 [10] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2017-10-26 12:31:16,355 [10] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2017-10-26 12:34:16,146 [11] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 12:37:16,152 [24] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 12:40:16,162 [10] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 12:43:16,163 [18] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 12:46:16,179 [21] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 12:49:16,193 [14] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 12:52:16,209 [14] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 12:55:16,225 [6] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 12:58:16,226 [25] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 13:01:16,240 [25] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 13:04:16,240 [23] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 13:07:16,241 [21] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 13:10:16,256 [11] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 13:13:16,271 [23] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 13:16:16,284 [11] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 13:19:16,295 [27] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 13:22:16,305 [23] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 13:25:16,306 [23] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 13:28:16,321 [12] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 13:31:16,335 [14] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 13:34:16,345 [21] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 13:37:16,354 [24] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 13:40:16,365 [24] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 13:43:16,368 [22] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 13:46:16,380 [22] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 13:49:16,394 [26] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 13:52:16,396 [14] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 13:55:16,397 [9] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 13:58:16,412 [6] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 14:01:16,413 [27] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 14:04:16,413 [26] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 14:07:16,427 [6] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 14:10:16,427 [14] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 14:13:16,427 [26] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 14:16:16,427 [10] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 14:19:16,439 [6] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 14:22:16,451 [8] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 14:25:16,459 [8] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 14:28:16,460 [18] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 14:31:16,470 [18] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 14:34:16,478 [15] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 14:37:16,492 [6] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 14:40:16,491 [8] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 14:43:16,492 [18] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 14:46:16,505 [12] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 14:49:16,522 [9] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 14:52:16,522 [8] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 14:55:16,522 [9] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 14:58:16,536 [12] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 15:01:16,537 [6] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 15:04:16,545 [24] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 15:07:16,554 [22] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 15:10:16,568 [14] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 15:13:16,570 [14] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 15:16:16,584 [11] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 15:19:16,600 [19] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 15:22:16,615 [23] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 15:25:16,616 [19] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 15:28:16,617 [15] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 15:31:16,617 [9] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 15:34:16,630 [15] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 15:37:16,630 [9] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 15:40:16,631 [22] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 15:43:16,631 [10] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 15:46:16,632 [14] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 15:49:16,638 [6] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 15:52:16,648 [21] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 15:55:16,662 [10] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 15:58:16,662 [6] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 16:01:16,662 [9] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 16:04:16,662 [6] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 16:07:16,663 [11] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 16:10:16,677 [21] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 16:13:16,678 [6] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 16:16:16,692 [14] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 16:19:16,707 [15] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 16:22:16,719 [8] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 16:25:16,725 [20] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 16:28:16,737 [10] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 16:31:16,737 [11] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 16:34:16,747 [20] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 16:37:16,763 [18] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer
+2017-10-26 16:40:16,772 [20] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - MY:::OnTimer

@@ -1,0 +1,5 @@
+W:\Projects\Phton Plugin\Photon-OnPremise-Server-Plugin-SDK_v4-0-29-11263\src-server\Plugins\MagicFaceSmasherPlugin\MagicFaceSmasherPlugin\obj\Debug\MagicFaceSmasherPlugin.csprojResolveAssemblyReference.cache
+W:\Projects\Phton Plugin\Photon-OnPremise-Server-Plugin-SDK_v4-0-29-11263\deploy\Plugins\MagicFaceSmasherPlugin\bin\MagicFaceSmasherPlugin.dll
+W:\Projects\Phton Plugin\Photon-OnPremise-Server-Plugin-SDK_v4-0-29-11263\deploy\Plugins\MagicFaceSmasherPlugin\bin\MagicFaceSmasherPlugin.pdb
+W:\Projects\Phton Plugin\Photon-OnPremise-Server-Plugin-SDK_v4-0-29-11263\src-server\Plugins\MagicFaceSmasherPlugin\MagicFaceSmasherPlugin\obj\Debug\MagicFaceSmasherPlugin.dll
+W:\Projects\Phton Plugin\Photon-OnPremise-Server-Plugin-SDK_v4-0-29-11263\src-server\Plugins\MagicFaceSmasherPlugin\MagicFaceSmasherPlugin\obj\Debug\MagicFaceSmasherPlugin.pdb

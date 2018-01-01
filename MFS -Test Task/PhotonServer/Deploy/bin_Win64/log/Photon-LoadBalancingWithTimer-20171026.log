@@ -1,0 +1,153 @@
+15960: 12:31:06.177 - ---
+15960: 12:31:06.177 - Service: "Photon Socket Server" starting
+15960: 12:31:06.177 - Config File: W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\bin_Win64\PhotonServer.config
+15960: 12:31:06.178 - Will produce at most: 10 crash dumps
+15960: 12:31:06.178 - Action: run as exe
+15960: 12:31:06.179 - Server Starting...
+15960: 12:31:06.179 -    Tick count: 4313812 (wraps in: 49.6603 days)
+15960: 12:31:06.179 - Tick count 64: 4313812
+15960: 12:31:06.179 - Photon Version: 4.0.28.2962
+15960: 12:31:06.179 - PID: 13828
+15960: 12:31:06.179 - Config File: W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\bin_Win64\PhotonServer.config
+15960: 12:31:06.179 - Will NOT log unimportant exceptions
+15960: 12:31:06.182 - Not using performance counters as they are not currently installed. Run the service with /InstallCounters to install them.
+15960: 12:31:06.183 - Shutdown timeout enabled: 30000ms
+15960: 12:31:06.183 - Starting I/O thread pool with 2 threads
+15960: 12:31:06.183 - Using Standard allocator
+15960: 12:31:06.183 - Max message size: 512000
+15960: 12:31:06.183 - Starting business logic thread pool with the following settings
+15960: 12:31:06.183 - InitialThreads: 4 threads
+15960: 12:31:06.183 - MinThreads: 4 threads
+15960: 12:31:06.183 - Thread pool is fixed size
+15960: 12:31:06.184 - Starting ENet thread pool with the following settings
+15960: 12:31:06.184 - InitialThreads: 2 threads
+15960: 12:31:06.184 - MinThreads: 2 threads
+15960: 12:31:06.184 - Thread pool is fixed size
+15960: 12:31:06.184 - OnlyDispatchTimers: False
+15960: 12:31:06.184 - S2S: flow control: Max pending writes: 50
+15960: 12:31:06.184 - S2S: flow control: Max queued buffers: 200
+15960: 12:31:06.184 - S2S: flow control: Max pending writes MUX: 500
+15960: 12:31:06.184 - S2S: flow control: Max queued buffers MUX: 2000
+15960: 12:31:06.184 - S2S: MaxInboundMessageSize: 512000
+15960: 12:31:06.184 - S2S: MaxOutboundMessageSize: 512000
+15960: 12:31:06.184 - S2S: No inactivity timeout
+15960: 12:31:06.224 - WebSocket S2S: MaxInboundMessageSize: 512000
+15960: 12:31:06.224 - WebSocket S2S: MaxOutboundMessageSize: 512000
+15960: 12:31:06.224 - WebSocket S2S: No inactivity timeout
+15960: 12:31:06.224 - Max Reliable Data In Transit (awaiting ACKs) per peer : 51200 bytes
+15960: 12:31:06.224 - Per peer bandwidth limit
+15960: 12:31:06.224 - Transmit Rate Limit: 256 KB/Sec
+15960: 12:31:06.224 - Limit period: 200ms
+15960: 12:31:06.224 - Limit per period: 52428 bytes
+15960: 12:31:06.224 - Max queued data for transmission per peer: 512000 bytes
+15960: 12:31:06.224 - Minimum retransmit timeout: 200
+15960: 12:31:06.224 - No Maximum retransmit timeout
+15960: 12:31:06.224 - Minimum ENet timeout: 5000ms
+15960: 12:31:06.224 - Maximum ENet timeout: 30000ms
+15960: 12:31:06.224 - Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+15960: 12:31:06.224 - No RTT ACK adjustment timeout
+15960: 12:31:06.224 - Outbound ENet: MaxInboundMessageSize: 512000
+15960: 12:31:06.224 - Outbound ENet: MaxOutboundMessageSize: 512000
+15960: 12:31:06.259 - GetRuntime - About to load CLR - versions available:
+15960: 12:31:06.259 - v2.0.50727
+15960: 12:31:06.259 - v4.0.30319
+15960: 12:31:06.259 - Configuration requests: "v2.0.50727"
+15960: 12:31:06.259 - About to load version: "v2.0.50727"
+15960: 12:31:06.266 - About to load runtime: PhotonHostRuntime.PhotonDomainManager from PhotonHostRuntime, Culture=neutral, PublicKeyToken=02C301B61B060C4D
+15960: 12:31:06.266 - CLRBaseDirectory set to "W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy"
+15960: 12:31:06.266 - Optimising event broadcast for 20 or more peers
+15960: 12:31:06.267 - Start: About to load CLR - versions available:
+15960: 12:31:06.267 - v2.0.50727
+15960: 12:31:06.267 - v4.0.30319
+15960: 12:31:06.267 - No preference in configuration file, will load latest.
+15960: 12:31:06.267 - About to load version: "v4.0.30319"
+15960: 12:31:06.268 - Loaded version: "v4.0.30319"
+15960: 12:31:06.433 - Photon host runtime loaded
+15960: 12:31:07.981 - LICENSE: No license file was found. Starting with Bootstrap License.
+15960: 12:31:07.981 - License is valid.
+15960: 12:31:07.981 - Licensed for 20 concurrent connections.
+15960: 12:31:07.981 - ENet: Max Reliable Data In Transit (awaiting ACKs) per peer : 51200 bytes
+15960: 12:31:07.981 - ENet: Per peer bandwidth limit
+15960: 12:31:07.981 - ENet: Transmit Rate Limit: 256 KB/Sec
+15960: 12:31:07.981 - ENet: Limit period: 200ms
+15960: 12:31:07.981 - ENet: Limit per period: 52428 bytes
+15960: 12:31:07.981 - ENet: Max queued data for transmission per peer: 512000 bytes
+15960: 12:31:07.981 - ENet: Minimum retransmit timeout: 200
+15960: 12:31:07.981 - No Maximum retransmit timeout
+15960: 12:31:07.981 - ENet: Minimum timeout: 5000ms
+15960: 12:31:07.981 - ENet: Maximum timeout: 30000ms
+15960: 12:31:07.981 - ENet: Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+15960: 12:31:07.981 - No RTT ACK adjustment timeout
+15960: 12:31:07.981 - About to load application: Master from Photon.LoadBalancing
+15960: 12:31:07.981 - Auto restart is enabled for application, existing connections will be terminated during restart
+15960: 12:31:07.981 - Application will restart 1000ms after the last change detected
+15960: 12:31:07.981 - Application will restart if files matching the following are changed: "dll;config"
+15960: 12:31:07.981 - Application will NOT restart if files matching the following are changed: "log4net.config"
+15960: 12:31:08.232 - Taking reference on default app domain
+15960: 12:31:08.591 - Application: "Master" started in app domain: 2
+15960: 12:31:08.591 - About to load application: Game from Photon.LoadBalancing
+15960: 12:31:08.591 - Auto restart is enabled for application, existing connections will be terminated during restart
+15960: 12:31:08.591 - Application will restart 1000ms after the last change detected
+15960: 12:31:08.591 - Application will restart if files matching the following are changed: "dll;config"
+15960: 12:31:08.591 - Application will NOT restart if files matching the following are changed: "log4net.config"
+15960: 12:31:08.936 - Taking reference on default app domain
+15960: 12:31:09.475 - Application: "Game" started in app domain: 3
+15960: 12:31:09.475 - About to load application: CounterPublisher from CounterPublisher
+15960: 12:31:09.475 - Auto restart is enabled for application, existing connections will be terminated during restart
+15960: 12:31:09.475 - Application will restart 1000ms after the last change detected
+15960: 12:31:09.475 - Application will restart if files matching the following are changed: "dll;config"
+15960: 12:31:09.475 - Application will NOT restart if files matching the following are changed: "log4net.config"
+15960: 12:31:09.849 - Taking reference on default app domain
+15960: 12:31:10.153 - Application: "CounterPublisher" started in app domain: 4
+15960: 12:31:10.174 - Adding TCP listener on: 0.0.0.0: 4530 with a listen backlog of: 150
+15960: 12:31:10.174 - TCP inactivity timeout: 10000ms
+15960: 12:31:10.174 - TCP disconnect timeout: 120000ms
+15960: 12:31:10.174 - MaxInboundMessageSize: 512000
+15960: 12:31:10.174 - MaxOutboundMessageSize: 512000
+15960: 12:31:10.174 - Forcing all applications ids to: "Master"
+15960: 12:31:10.182 - Serving policy file requests from: "W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\Policy\assets\socket-policy.xml"
+15960: 12:31:10.182 - Adding TCP listener on: 0.0.0.0: 4531 with a listen backlog of: 150
+15960: 12:31:10.182 - TCP inactivity timeout: 10000ms
+15960: 12:31:10.182 - TCP disconnect timeout: 120000ms
+15960: 12:31:10.182 - MaxInboundMessageSize: 512000
+15960: 12:31:10.182 - MaxOutboundMessageSize: 512000
+15960: 12:31:10.182 - Forcing all applications ids to: "Game"
+15960: 12:31:10.182 - Serving policy file requests from: "W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\Policy\assets\socket-policy.xml"
+15960: 12:31:10.182 - Adding TCP listener on: 0.0.0.0: 4520 with a listen backlog of: 150
+15960: 12:31:10.182 - TCP inactivity timeout: 5000ms
+15960: 12:31:10.182 - TCP disconnect timeout: 120000ms
+15960: 12:31:10.182 - MaxInboundMessageSize: 512000
+15960: 12:31:10.182 - MaxOutboundMessageSize: 512000
+15960: 12:31:10.182 - Forcing all applications ids to: "Master"
+15960: 12:31:10.182 - MaxInboundMessageSize: 512000
+15960: 12:31:10.182 - MaxOutboundMessageSize: 512000
+15960: 12:31:10.182 - UDP address specified as: "0.0.0.0" adding listener to each available IPv4 address
+15960: 12:31:10.183 - Adding UDP listener on: 192.168.1.67: 5055 with a listen backlog of: 500
+15960: 12:31:10.183 - Adding UDP listener on: 127.0.0.1: 5055 with a listen backlog of: 500
+15960: 12:31:10.183 - Forcing all applications ids to: "Game"
+15960: 12:31:10.183 - MaxInboundMessageSize: 512000
+15960: 12:31:10.183 - MaxOutboundMessageSize: 512000
+15960: 12:31:10.183 - UDP address specified as: "0.0.0.0" adding listener to each available IPv4 address
+15960: 12:31:10.183 - Adding UDP listener on: 192.168.1.67: 5056 with a listen backlog of: 500
+15960: 12:31:10.183 - Adding UDP listener on: 127.0.0.1: 5056 with a listen backlog of: 500
+15960: 12:31:10.183 - Adding WebSocket TCP listener on: 0.0.0.0: 9090 with a listen backlog of: 150
+15960: 12:31:10.183 - Nagle disabled
+15960: 12:31:10.183 - TCP inactivity timeout: 10000ms
+15960: 12:31:10.183 - MaxInboundMessageSize: 512000
+15960: 12:31:10.183 - MaxOutboundMessageSize: 512000
+15960: 12:31:10.183 - Forcing all applications ids to: "Master"
+15960: 12:31:10.183 - Will accept ANY sub-protocols from the client
+15960: 12:31:10.183 - No automatic WebSocket ping
+15960: 12:31:10.191 - Adding WebSocket TCP listener on: 0.0.0.0: 9091 with a listen backlog of: 150
+15960: 12:31:10.191 - Nagle disabled
+15960: 12:31:10.191 - TCP inactivity timeout: 10000ms
+15960: 12:31:10.191 - MaxInboundMessageSize: 512000
+15960: 12:31:10.191 - MaxOutboundMessageSize: 512000
+15960: 12:31:10.191 - Forcing all applications ids to: "Game"
+15960: 12:31:10.191 - Will accept ANY sub-protocols from the client
+15960: 12:31:10.191 - No automatic WebSocket ping
+15960: 12:31:10.192 - Adding Policy File listener on: 0.0.0.0: 843 with a listen backlog of: 150 and serving Policy File: "W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\Policy\assets\socket-policy.xml"
+15960: 12:31:10.192 - TCP inactivity timeout: 1000ms
+15960: 12:31:10.196 - Adding Policy File listener on: 0.0.0.0: 943 with a listen backlog of: 150 and serving Policy File: "W:\Unity Projects\Unity 2017\MagicFaceSmasher\MFS -Test Task\PhotonServer\Deploy\Policy\assets\socket-policy-silverlight.xml"
+15960: 12:31:10.196 - TCP inactivity timeout: 1000ms
+15960: 12:31:10.244 - Service is running...

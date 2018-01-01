@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicFaceSmasher", "MagicFaceSmasher.csproj", "{CCF5E20F-658C-5EB0-1389-C742F444807B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicFaceSmasher.Editor", "MagicFaceSmasher.Editor.csproj", "{286C38D8-AFC9-0732-857C-209F6AEDE73D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCF5E20F-658C-5EB0-1389-C742F444807B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF5E20F-658C-5EB0-1389-C742F444807B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF5E20F-658C-5EB0-1389-C742F444807B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF5E20F-658C-5EB0-1389-C742F444807B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{286C38D8-AFC9-0732-857C-209F6AEDE73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{286C38D8-AFC9-0732-857C-209F6AEDE73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{286C38D8-AFC9-0732-857C-209F6AEDE73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{286C38D8-AFC9-0732-857C-209F6AEDE73D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

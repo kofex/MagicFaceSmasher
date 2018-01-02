@@ -10,16 +10,13 @@ public class NetLogic : Photon.MonoBehaviour
 {
     public float reconnectDelay = 2; //sec
     public string gameVersion;
+	public int maxReconnectionCount = 3;
 
-    private static NetLogic _instance;
-    public static NetLogic instance
-    {
-        get { return _instance; }
-        private set { _instance = value; }
-    }
+	public static NetLogic instance { get; private set; }
 
-    private Coroutine reconnCor;
-
+	private Coroutine _reconnCor;
+	private WaitForSeconds _recconnectionWait;
+	private int _reconnCount;
 
     #region Unity Methods
     public virtual void Awake()
@@ -27,14 +24,19 @@ public class NetLogic : Photon.MonoBehaviour
         if (instance == null)
             instance = this;
         else
-            Destroy(gameObject);
+        {
+	        Destroy(gameObject);
+	        return;
+        }
 
         DontDestroyOnLoad(this);
     }
 
 	public virtual void Start () 
     {
-        PhotonNetwork.autoJoinLobby = true;
+	    _recconnectionWait =  new WaitForSeconds(reconnectDelay);
+
+		PhotonNetwork.autoJoinLobby = true;
         Connect();
         PhotonPeer.RegisterType(typeof(OnHitResponce), (byte)'R', OnHitResponce.UnitySerializer, OnHitResponce.UnityDeserializer);
         PhotonNetwork.OnEventCall += OnCommonEvents;        
@@ -71,7 +73,6 @@ public class NetLogic : Photon.MonoBehaviour
     /// <param name="sender"></param>
     private void OnCommonEvents(byte eventCode, object content, int sender)
     {
-         
         EventCodes evCode = (EventCodes) eventCode;
         //Debug.Log(string.Format("On Common Events come {0} ({1}) Sender {2}", eventCode, evCode, sender));
 
@@ -89,6 +90,8 @@ public class NetLogic : Photon.MonoBehaviour
     {
         if (MainMenuLogic.instance)
             MainMenuLogic.instance.OnlineState();
+	    GameManager.instance.isOfflineMode = false;
+	    _reconnCount = 0;
     }
 
     /// <summary>
@@ -102,8 +105,8 @@ public class NetLogic : Photon.MonoBehaviour
         if (MainMenuLogic.instance)
             MainMenuLogic.instance.OnlineState();
 
-        if (reconnCor == null)
-            reconnCor = StartCoroutine(ReconnCor());
+        if (_reconnCor == null)
+            _reconnCor = StartCoroutine(ReconnCor());
     }
 
     /// <summary>
@@ -117,8 +120,8 @@ public class NetLogic : Photon.MonoBehaviour
         if (MainMenuLogic.instance)
             MainMenuLogic.instance.OnlineState();
 
-        if (reconnCor == null)
-            reconnCor = StartCoroutine(ReconnCor());
+        if (_reconnCor == null)
+            _reconnCor = StartCoroutine(ReconnCor());
 
         
     }   
@@ -127,11 +130,19 @@ public class NetLogic : Photon.MonoBehaviour
     #region Coroutines
     IEnumerator ReconnCor()
     {
-        yield return new WaitForSeconds(reconnectDelay);
+	    GameManager.instance.isOfflineMode = true;
+	    if (_reconnCount > maxReconnectionCount)
+	    {
+		    _reconnCor = null;
+			yield break;
+	    }
+
+	    yield return _recconnectionWait;
+	    _reconnCount++;
         Connect();
+	    GameManager.instance.isOfflineMode = false;
 
-        reconnCor = null;
-
+		_reconnCor = null;
     }
 
     #endregion

@@ -15,6 +15,7 @@ public class MainMenuLogic : MonoBehaviour {
     public Color offlineColor;
     public Text statsText;
     public InputField characterName;
+	public Button reconnectButton;
     ////--------
 
 
@@ -24,20 +25,17 @@ public class MainMenuLogic : MonoBehaviour {
     private Coroutine onlineStateCor;
     private int selectedIndex = 0;
 
-    private static MainMenuLogic _instance;
-    public static MainMenuLogic instance
-    {
-        get { return _instance; }
-        private set { _instance = value; }
-    }
+	public static MainMenuLogic instance { get; private set; }
 
-    #region Unity Methods
+	#region Unity Methods
     private void Awake()
     {
         if (instance == null)
             instance = this;
         else
             Destroy(gameObject);        
+
+		reconnectButton.onClick.AddListener(Reconnect);
     }    
 
 	void Start () 
@@ -58,7 +56,12 @@ public class MainMenuLogic : MonoBehaviour {
         StartCoroutine(MoveCamCor(selectedIndex));
 	}
 
-    #endregion
+	private void OnDestroy()
+	{
+		reconnectButton.onClick.RemoveAllListeners();
+	}
+
+	#endregion
 
 
     #region Custom Methods
@@ -78,8 +81,19 @@ public class MainMenuLogic : MonoBehaviour {
             characterList.Add(child);            
         }
     }
-    
-    public void ChooseNext()
+
+	public void SetEnableStateForReconButton(bool isActive)
+	{
+		reconnectButton.enabled = isActive;
+	}
+
+	public void Reconnect()
+	{
+		Debug.Log("Clicked");
+		NetLogic.instance.Connect();
+	}
+
+	public void ChooseNext()
     {
         if (moveCor != null)
             StopCoroutine(moveCor);
@@ -102,7 +116,6 @@ public class MainMenuLogic : MonoBehaviour {
             selectedIndex = 0;        
 
         moveCor = StartCoroutine(MoveCamCor(selectedIndex));
- 
     }
 
     /// <summary>
@@ -110,11 +123,11 @@ public class MainMenuLogic : MonoBehaviour {
     /// </summary>
     public void ChooseRoom(int sceneInx)
     {
-        if (PhotonNetwork.connectedAndReady)
+        if (PhotonNetwork.connectedAndReady || GameManager.instance.isOfflineMode)
         {
             gameManager.selectedIndex = selectedIndex;
             SceneManager.LoadScene(sceneInx);
-        }        
+        }
     }
 
     public void OnStatsUpdated()
@@ -151,7 +164,7 @@ public class MainMenuLogic : MonoBehaviour {
     {
         if (PhotonNetwork.connectionState != ConnectionState.Connected)
         {
-            connectionText.text = "Offline";
+            connectionText.text = "Offline. Perss to reconnect";
             connBG.color = offlineColor;
         }
 

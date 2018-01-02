@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -19,11 +20,28 @@ public class GameManager : MonoBehaviour
     public string connectionIP;
     [HideInInspector]
     public int connectionPort;
+	
+	private bool _isOfflineMode;
+	public bool isOfflineMode {
+		get
+		{
+			return _isOfflineMode;
+		}
+		set
+		{
+			if (MainMenuLogic.instance)
+				MainMenuLogic.instance.SetEnableStateForReconButton(value);
+			_isOfflineMode = value;
+		}
+	}
 
-    /// <summary>
-    /// ActorNr, PlayerManager
-    /// </summary>
-    private Dictionary<int, PlayerManager> players;
+
+
+
+	/// <summary>
+	/// ActorNr, PlayerManager
+	/// </summary>
+	private Dictionary<int, PlayerManager> players;
     private string statisticPath;
     private static GameManager _instance;
     private bool canFight = false;
@@ -37,7 +55,7 @@ public class GameManager : MonoBehaviour
 
     public static GameManager instance
     {
-        get { return _instance;}
+	    get {return _instance;}
         private set { _instance = value; }
     }
 
@@ -92,7 +110,6 @@ public class GameManager : MonoBehaviour
 
         SaveStatisticsForCharacters();
         LoadStatisticsForCharacters();
-        
     }
 
     private bool LoadSettings()
@@ -198,19 +215,22 @@ public class GameManager : MonoBehaviour
             using (FileStream fstream = new FileStream(statisticPath, FileMode.Open))
             {
                 Dictionary<string, CharacterStatistic> dict = formatter.Deserialize(fstream) as Dictionary<string, CharacterStatistic>;
-                foreach (KeyValuePair<string, CharacterStatistic> pair in dict)
-                {
-                    Character[] chr = (from character in characters where character.name == pair.Key select character).ToArray();
-                    chr[0].statistic = pair.Value;                    
-                    if (chr.Length > 1)
-                    {
-                        Debug.LogError("Имеются персонажи с одинкаковымим именами!!!");
-                    }
+	            if (ReferenceEquals(dict, null))
+	            {
+		            Debug.LogError("Somehow dict is null!");
+		            return false;
+	            }
 
-                    Debug.Log(string.Format("Loaded stats for name {0} win {1} loose {2}", chr[0].name, chr[0].statistic.win, chr[0].statistic.loose));
-                }
+	            var query = characters.Join(dict, c => c.name, d => d.Key, (c, d) =>
+	            {
+					Debug.Log(string.Format("Loaded stats for name {0} win {1} loose {2}", c.name, d.Value.win, d.Value.loose));
+					return c.statistic = d.Value;
+	            }).ToArray();
 
-                if (MainMenuLogic.instance)
+	            if (query.Length > characters.Count)
+					Debug.LogError("Имеются персонажи с одинкаковымим именами!!!");
+
+				if (MainMenuLogic.instance)
                     MainMenuLogic.instance.OnStatsUpdated();
 
                 return true;
@@ -278,7 +298,6 @@ public class GameManager : MonoBehaviour
     {
         PlayerManager[] sorted = (from plrs in players where plrs.Key != inx select plrs.Value).ToArray();
         return sorted[0];
-
     }
 
     #endregion
